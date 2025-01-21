@@ -1,0 +1,19 @@
+{
+  "name": "iwant-cli-dev",
+  "version": "1.0.0",
+  "description": "iwant-cli-dev",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "iwant",
+  "license": "ISC",
+  "workspaces": [
+    "packages/*"
+  ],
+  "private": true,
+  "dependencies": {},
+  "devDependencies": {
+    "lerna": "^8.1.9"
+  }
+}
